@@ -1,0 +1,35 @@
+{
+  "name": "web-project",
+  "version": "1.0.0",
+  "description": "> **⚠️ EDUCATIONAL PURPOSE ONLY**   > This project is designed for controlled lab environments and cybersecurity education. Unauthorized network monitoring or MITM attacks are illegal. Use only in private, isolated lab networks with proper authorization.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@types/node": "^25.8.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "bcryptjs": "^3.0.3",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.2",
+    "next": "^14.2.35",
+    "next-auth": "^4.24.14",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "vitest": "^4.1.6"
+  }
+}
